@@ -33,7 +33,7 @@ MemoryTransit 的核心设计目标是构建一个可学习、高效且灵活的
 
 IDRP 是 MemoryTransit 的基础模块，它巧妙地将**无损的可逆变换**与**有损的智能预测**相结合，实现了高效的压缩与高保真的重建。其整体流程如图所示。
 
-![](D:\Developments\Python\MNN\assets\生成神经网络图片.png)
+![](assets/apcm_tol.png)
 
 **1. 可逆网络编码器**（`network`）
 IDRP 的主干是一个由 $N$ 层堆叠而成的可逆神经网络。每一层由一个**仿射耦合层**（Affine Coupling Layer）和一个**随机置换层**（Random Permutation Layer）交替组成。
@@ -112,9 +112,9 @@ MemoryTransit 的运作模拟了人脑记忆的简化过程：**编码、存储�
 
 #### IDRP（预测网络预训练2000轮）:
 
-![](assets\loss_curves_res_GR8Lr[True]n12h768ph768E2000.png)
+![](assets/loss_curves_res_GR8Lr[True]n12h768ph768E2000.png)
 
-![](assets\Example_res_GR_8Lr[True]n12h768ph768E2000.png)
+![](assets/Example_res_GR_8Lr[True]n12h768ph768E2000.png)
 
 ```
 图像 1: PSNR = 15.40 dB, MAE = 0.128622, MSE = 0.028872
@@ -125,7 +125,7 @@ MemoryTransit 的运作模拟了人脑记忆的简化过程：**编码、存储�
 
 #### PCA：
 
-![](assets\PCA_Example_8to1.png)
+![](assets/PCA_Example_8to1.png)
 
 ```
 图像 1: PSNR = 27.68 dB, MAE = 0.032490, MSE = 0.001706
@@ -138,9 +138,9 @@ MemoryTransit 的运作模拟了人脑记忆的简化过程：**编码、存储�
 
 #### IDRP（预测网络预训练2000轮、6层、256压缩网络隐藏维度、256预测网络隐藏维度）:
 
-![](assets\loss_curves_res_8Lr[True]n6h256ph256E2000.png)
+![](assets/loss_curves_res_8Lr[True]n6h256ph256E2000.png)
 
-![](assets\Res_8Lr[True]n6h256ph256E2000.png)
+![](assets/Res_8Lr[True]n6h256ph256E2000.png)
 
 ```
 图像 1: PSNR = 40.60 dB, MAE = 0.004741, MSE = 0.000087
@@ -151,7 +151,7 @@ MemoryTransit 的运作模拟了人脑记忆的简化过程：**编码、存储�
 
 #### PCA：
 
-![PCA_Example_RR_8to1](assets\PCA_Example_RR_8to1.png)
+![PCA_Example_RR_8to1](assets/PCA_Example_RR_8to1.png)
 
 ```
 图像 1: PSNR = 27.68 dB, MAE = 0.032490, MSE = 0.001706
