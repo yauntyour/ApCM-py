@@ -159,7 +159,7 @@ class InvertibleDimReductionWithPredictor(nn.Module):
         return self.inverse(z_comp)
 
 
-class MemoryTransit(nn.Module):
+class ApCM(nn.Module):
 
     def __init__(
         self,
@@ -178,7 +178,7 @@ class MemoryTransit(nn.Module):
         Returns:
             selected_memory: (batch_size, m_dim)
         """
-        super(MemoryTransit, self).__init__()
+        super(ApCM, self).__init__()
         self.L = L
         self.D = D
         self.max_mem = max_mem
@@ -282,7 +282,7 @@ if __name__ == "__main__":
     max_mem = 4  # max memory nums
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-    model = MemoryTransit(L=L, D=D, m_dim=m_dim, max_mem=max_mem).to(device)
+    model = ApCM(L=L, D=D, m_dim=m_dim, max_mem=max_mem).to(device)
     optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
     criterion = nn.MSELoss()
 

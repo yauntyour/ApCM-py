@@ -474,11 +474,11 @@
         "documentation": {}
     },
     {
-        "label": "MemoryTransit",
+        "label": "ApCM",
         "kind": 6,
         "importPath": "exp.net",
         "description": "exp.net",
-        "peekOfCode": "class MemoryTransit(nn.Module):\n    def __init__(\n        self,\n        L,\n        D,\n        m_dim,\n        max_mem,\n        n_layers: int = 4,\n        hidden_dim: int = 256,\n        aux_predictor_hidden: int = 128,",
+        "peekOfCode": "class ApCM(nn.Module):\n    def __init__(\n        self,\n        L,\n        D,\n        m_dim,\n        max_mem,\n        n_layers: int = 4,\n        hidden_dim: int = 256,\n        aux_predictor_hidden: int = 128,",
         "detail": "exp.net",
         "documentation": {}
     },
