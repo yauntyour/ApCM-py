@@ -1,0 +1,116 @@
+Using device: cuda
+============================================================
+🎯 训练策略：使用生成数据训练，真实数据测试
+============================================================
+
+📂 加载真实数据...
+加载了 250 张真实测试图像
+测试数据形状: torch.Size([250, 1024])
+
+📊 参数设置:
+  输入维度: 1024
+  压缩维度: 256
+  压缩率: 0.250 (4:1)
+  批大小: 32
+  训练轮数: 2000
+  学习率: 0.001
+  学习率调整: True
+  网络层数: 6
+  隐藏层维度: 512
+  预测层维度: 512
+检测到旧版本 PyTorch，使用无 verbose 参数的学习率调度器
+
+🚀 开始训练（使用生成数据）...
+Epoch 50/2000, Loss: nan, Recon Loss: nan, LR: 0.001000
+Epoch 55: 学习率调整为 0.000500
+Epoch 100/2000, Loss: nan, Recon Loss: nan, LR: 0.000500
+Epoch 106: 学习率调整为 0.000250
+Epoch 150/2000, Loss: nan, Recon Loss: nan, LR: 0.000250
+Epoch 157: 学习率调整为 0.000125
+Epoch 200/2000, Loss: nan, Recon Loss: nan, LR: 0.000125
+Epoch 208: 学习率调整为 0.000063
+Epoch 250/2000, Loss: nan, Recon Loss: nan, LR: 0.000063
+Epoch 259: 学习率调整为 0.000031
+Epoch 300/2000, Loss: nan, Recon Loss: nan, LR: 0.000031
+Epoch 310: 学习率调整为 0.000016
+Epoch 350/2000, Loss: nan, Recon Loss: nan, LR: 0.000016
+Epoch 361: 学习率调整为 0.000008
+Epoch 400/2000, Loss: nan, Recon Loss: nan, LR: 0.000008
+Epoch 412: 学习率调整为 0.000004
+Epoch 450/2000, Loss: nan, Recon Loss: nan, LR: 0.000004
+Epoch 463: 学习率调整为 0.000002
+Epoch 500/2000, Loss: nan, Recon Loss: nan, LR: 0.000002
+Epoch 514: 学习率调整为 0.000001
+Epoch 550/2000, Loss: nan, Recon Loss: nan, LR: 0.000001
+Epoch 565: 学习率调整为 0.000000
+Epoch 600/2000, Loss: nan, Recon Loss: nan, LR: 0.000000
+Epoch 616: 学习率调整为 0.000000
+Epoch 650/2000, Loss: nan, Recon Loss: nan, LR: 0.000000
+Epoch 667: 学习率调整为 0.000000
+Epoch 700/2000, Loss: nan, Recon Loss: nan, LR: 0.000000
+Epoch 718: 学习率调整为 0.000000
+Epoch 750/2000, Loss: nan, Recon Loss: nan, LR: 0.000000
+Epoch 769: 学习率调整为 0.000000
+Epoch 800/2000, Loss: nan, Recon Loss: nan, LR: 0.000000
+Epoch 820: 学习率调整为 0.000000
+Epoch 850/2000, Loss: nan, Recon Loss: nan, LR: 0.000000
+Epoch 900/2000, Loss: nan, Recon Loss: nan, LR: 0.000000
+Epoch 950/2000, Loss: nan, Recon Loss: nan, LR: 0.000000
+Epoch 1000/2000, Loss: nan, Recon Loss: nan, LR: 0.000000
+Epoch 1050/2000, Loss: nan, Recon Loss: nan, LR: 0.000000
+Epoch 1100/2000, Loss: nan, Recon Loss: nan, LR: 0.000000
+Epoch 1150/2000, Loss: nan, Recon Loss: nan, LR: 0.000000
+Epoch 1200/2000, Loss: nan, Recon Loss: nan, LR: 0.000000
+Epoch 1250/2000, Loss: nan, Recon Loss: nan, LR: 0.000000
+Epoch 1300/2000, Loss: nan, Recon Loss: nan, LR: 0.000000
+Epoch 1350/2000, Loss: nan, Recon Loss: nan, LR: 0.000000
+Epoch 1400/2000, Loss: nan, Recon Loss: nan, LR: 0.000000
+Epoch 1450/2000, Loss: nan, Recon Loss: nan, LR: 0.000000
+Epoch 1500/2000, Loss: nan, Recon Loss: nan, LR: 0.000000
+Epoch 1550/2000, Loss: nan, Recon Loss: nan, LR: 0.000000
+Epoch 1600/2000, Loss: nan, Recon Loss: nan, LR: 0.000000
+Epoch 1650/2000, Loss: nan, Recon Loss: nan, LR: 0.000000
+Epoch 1700/2000, Loss: nan, Recon Loss: nan, LR: 0.000000
+Epoch 1750/2000, Loss: nan, Recon Loss: nan, LR: 0.000000
+Epoch 1800/2000, Loss: nan, Recon Loss: nan, LR: 0.000000
+Epoch 1850/2000, Loss: nan, Recon Loss: nan, LR: 0.000000
+Epoch 1900/2000, Loss: nan, Recon Loss: nan, LR: 0.000000
+Epoch 1950/2000, Loss: nan, Recon Loss: nan, LR: 0.000000
+Epoch 2000/2000, Loss: nan, Recon Loss: nan, LR: 0.000000
+
+训练完成，学习率共调整了 16 次
+最佳损失: 0.083531
+加载最佳模型进行测试...
+
+📈 绘制训练损失曲线...
+Loss curves saved to assets/loss_curves_4Lr[True]n6h512ph512E2000.png
+
+============================================================
+🧪 开始测试（使用真实数据）...
+============================================================
+测试数据维度: torch.Size([250, 1024])
+压缩后维度: torch.Size([250, 256])
+压缩率: 0.250
+
+📊 整体测试结果:
+  重建 MAE: nan
+  重建 MSE: nan
+  PSNR: nan dB
+
+📸 生成可视化对比图（真实数据 vs 重建结果）...
+Loss curves saved to assets/Example_4Lr[True]n6h512ph512E2000.png
+
+📈 每张测试图像的详细指标:
+  图像 1: PSNR = 8.91 dB, MAE = 0.264754, MSE = 0.128574
+  图像 2: PSNR = 6.42 dB, MAE = 0.369713, MSE = 0.228063
+  图像 3: PSNR = 5.26 dB, MAE = 0.424561, MSE = 0.298167
+  图像 4: PSNR = 12.96 dB, MAE = 0.163314, MSE = 0.050543
+  图像 5: PSNR = 4.10 dB, MAE = 0.506397, MSE = 0.389000
+
+============================================================
+✅ 测试完成！
+  训练数据: 250 张生成图像
+  测试数据: 250 张真实图像
+  压缩效果: 1024 维 → 256 维
+  最佳模型已保存到: models/best_model.pth
+============================================================

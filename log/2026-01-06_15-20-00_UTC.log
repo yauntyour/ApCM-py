@@ -1,0 +1,103 @@
+Using device: cuda
+============================================================
+🎯 训练策略：使用生成数据训练，真实数据测试
+============================================================
+
+🔧 生成训练数据...
+生成了 2000 张训练图像
+训练数据形状: torch.Size([2000, 1024])
+
+📂 加载真实测试数据...
+加载了 250 张真实测试图像
+测试数据形状: torch.Size([250, 1024])
+
+📊 参数设置:
+  输入维度: 1024
+  压缩维度: 128
+  压缩率: 0.125 (8:1)
+  批大小: 32
+  训练轮数: 2000
+  学习率: 0.001
+  学习率调整: False
+  网络层数: 12
+  隐藏层维度: 768
+  预测层维度: 768
+
+🚀 开始训练（使用生成数据）...
+Epoch 50/2000, Loss: 0.007031, Recon Loss: 0.006753, LR: 0.001000
+Epoch 100/2000, Loss: 0.004567, Recon Loss: 0.004347, LR: 0.001000
+Epoch 150/2000, Loss: 0.003857, Recon Loss: 0.003636, LR: 0.001000
+Epoch 200/2000, Loss: 0.003396, Recon Loss: 0.003159, LR: 0.001000
+Epoch 250/2000, Loss: 0.003089, Recon Loss: 0.002921, LR: 0.001000
+Epoch 300/2000, Loss: 0.002970, Recon Loss: 0.002799, LR: 0.001000
+Epoch 350/2000, Loss: 0.002413, Recon Loss: 0.002290, LR: 0.001000
+Epoch 400/2000, Loss: 0.002678, Recon Loss: 0.002560, LR: 0.001000
+Epoch 450/2000, Loss: 0.002379, Recon Loss: 0.002274, LR: 0.001000
+Epoch 500/2000, Loss: 0.002361, Recon Loss: 0.002257, LR: 0.001000
+Epoch 550/2000, Loss: 0.002195, Recon Loss: 0.002086, LR: 0.001000
+Epoch 600/2000, Loss: 0.002081, Recon Loss: 0.001980, LR: 0.001000
+Epoch 650/2000, Loss: nan, Recon Loss: nan, LR: 0.001000
+Epoch 700/2000, Loss: nan, Recon Loss: nan, LR: 0.001000
+Epoch 750/2000, Loss: nan, Recon Loss: nan, LR: 0.001000
+Epoch 800/2000, Loss: nan, Recon Loss: nan, LR: 0.001000
+Epoch 850/2000, Loss: nan, Recon Loss: nan, LR: 0.001000
+Epoch 900/2000, Loss: nan, Recon Loss: nan, LR: 0.001000
+Epoch 950/2000, Loss: nan, Recon Loss: nan, LR: 0.001000
+Epoch 1000/2000, Loss: nan, Recon Loss: nan, LR: 0.001000
+Epoch 1050/2000, Loss: nan, Recon Loss: nan, LR: 0.001000
+Epoch 1100/2000, Loss: nan, Recon Loss: nan, LR: 0.001000
+Epoch 1150/2000, Loss: nan, Recon Loss: nan, LR: 0.001000
+Epoch 1200/2000, Loss: nan, Recon Loss: nan, LR: 0.001000
+Epoch 1250/2000, Loss: nan, Recon Loss: nan, LR: 0.001000
+Epoch 1300/2000, Loss: nan, Recon Loss: nan, LR: 0.001000
+Epoch 1350/2000, Loss: nan, Recon Loss: nan, LR: 0.001000
+Epoch 1400/2000, Loss: nan, Recon Loss: nan, LR: 0.001000
+Epoch 1450/2000, Loss: nan, Recon Loss: nan, LR: 0.001000
+Epoch 1500/2000, Loss: nan, Recon Loss: nan, LR: 0.001000
+Epoch 1550/2000, Loss: nan, Recon Loss: nan, LR: 0.001000
+Epoch 1600/2000, Loss: nan, Recon Loss: nan, LR: 0.001000
+Epoch 1650/2000, Loss: nan, Recon Loss: nan, LR: 0.001000
+Epoch 1700/2000, Loss: nan, Recon Loss: nan, LR: 0.001000
+Epoch 1750/2000, Loss: nan, Recon Loss: nan, LR: 0.001000
+Epoch 1800/2000, Loss: nan, Recon Loss: nan, LR: 0.001000
+Epoch 1850/2000, Loss: nan, Recon Loss: nan, LR: 0.001000
+Epoch 1900/2000, Loss: nan, Recon Loss: nan, LR: 0.001000
+Epoch 1950/2000, Loss: nan, Recon Loss: nan, LR: 0.001000
+Epoch 2000/2000, Loss: nan, Recon Loss: nan, LR: 0.001000
+
+训练完成，学习率共调整了 0 次
+最佳损失: 0.002005
+加载最佳模型进行测试...
+
+📈 绘制训练损失曲线...
+Loss curves saved to assets/loss_curves_8Lr[False]n12h768ph768E2000.png
+
+============================================================
+🧪 开始测试（使用真实数据）...
+============================================================
+测试数据维度: torch.Size([250, 1024])
+压缩后维度: torch.Size([250, 128])
+压缩率: 0.125
+
+📊 整体测试结果:
+  重建 MAE: 0.148579
+  重建 MSE: 0.049500
+  PSNR: 13.05 dB
+
+📸 生成可视化对比图（真实数据 vs 重建结果）...
+Loss curves saved to assets/Example_8Lr[False]n12h768ph768E2000.png
+
+📈 每张测试图像的详细指标:
+  图像 1: PSNR = 17.00 dB, MAE = 0.102851, MSE = 0.019930
+  图像 2: PSNR = 17.70 dB, MAE = 0.093428, MSE = 0.016970
+  图像 3: PSNR = 16.36 dB, MAE = 0.110125, MSE = 0.023099
+  图像 4: PSNR = 19.03 dB, MAE = 0.082015, MSE = 0.012513
+  图像 5: PSNR = 15.64 dB, MAE = 0.129032, MSE = 0.027294
+
+============================================================
+✅ 测试完成！
+  训练数据: 2000 张生成图像
+  测试数据: 250 张真实图像
+  压缩效果: 1024 维 → 128 维
+  最佳模型已保存到: models/best_model.pth
+============================================================

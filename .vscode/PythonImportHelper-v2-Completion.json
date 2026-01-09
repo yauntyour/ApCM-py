@@ -1,0 +1,611 @@
+[
+    {
+        "label": "torch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch",
+        "description": "torch",
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "torch.nn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "torch.nn.functional",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.nn.functional",
+        "description": "torch.nn.functional",
+        "detail": "torch.nn.functional",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "zipfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "zipfile",
+        "description": "zipfile",
+        "detail": "zipfile",
+        "documentation": {}
+    },
+    {
+        "label": "ApCM",
+        "importPath": "net",
+        "description": "net",
+        "isExtraImport": true,
+        "detail": "net",
+        "documentation": {}
+    },
+    {
+        "label": "ApCM",
+        "importPath": "net",
+        "description": "net",
+        "isExtraImport": true,
+        "detail": "net",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "PCA",
+        "importPath": "sklearn.decomposition",
+        "description": "sklearn.decomposition",
+        "isExtraImport": true,
+        "detail": "sklearn.decomposition",
+        "documentation": {}
+    },
+    {
+        "label": "PCA",
+        "importPath": "sklearn.decomposition",
+        "description": "sklearn.decomposition",
+        "isExtraImport": true,
+        "detail": "sklearn.decomposition",
+        "documentation": {}
+    },
+    {
+        "label": "PCA",
+        "importPath": "sklearn.decomposition",
+        "description": "sklearn.decomposition",
+        "isExtraImport": true,
+        "detail": "sklearn.decomposition",
+        "documentation": {}
+    },
+    {
+        "label": "SwiGLULayer",
+        "kind": 6,
+        "importPath": "core.net",
+        "description": "core.net",
+        "peekOfCode": "class SwiGLULayer(nn.Module):\n    def __init__(self, in_dim, out_dim):\n        super().__init__()\n        self.w = nn.Linear(in_dim, 2 * out_dim)\n    def forward(self, x):\n        x = self.w(x)\n        gate, val = x.chunk(2, dim=-1)\n        return F.silu(gate) * val  # silu = swish\nclass ResidualBlock(nn.Module):\n    def __init__(self, dim, hidden_dim=None):",
+        "detail": "core.net",
+        "documentation": {}
+    },
+    {
+        "label": "ResidualBlock",
+        "kind": 6,
+        "importPath": "core.net",
+        "description": "core.net",
+        "peekOfCode": "class ResidualBlock(nn.Module):\n    def __init__(self, dim, hidden_dim=None):\n        super().__init__()\n        if hidden_dim is None:\n            hidden_dim = dim\n        self.block = nn.Sequential(\n            nn.Linear(dim, hidden_dim),\n            SwiGLULayer(hidden_dim, hidden_dim),  # 门控\n            nn.Linear(hidden_dim, dim),\n        )",
+        "detail": "core.net",
+        "documentation": {}
+    },
+    {
+        "label": "InvertibleCouplingLayer",
+        "kind": 6,
+        "importPath": "core.net",
+        "description": "core.net",
+        "peekOfCode": "class InvertibleCouplingLayer(nn.Module):\n    def __init__(self, dim, hidden_dim=None, affine=True):\n        super().__init__()\n        self.affine = affine\n        half_dim = dim // 2\n        if hidden_dim is None:\n            hidden_dim = half_dim * 2\n        out_dim = half_dim * 2 if affine else half_dim\n        self.net = nn.Sequential(\n            nn.Linear(half_dim, hidden_dim),",
+        "detail": "core.net",
+        "documentation": {}
+    },
+    {
+        "label": "PermuteLayer",
+        "kind": 6,
+        "importPath": "core.net",
+        "description": "core.net",
+        "peekOfCode": "class PermuteLayer(nn.Module):\n    def __init__(self, dim):\n        super().__init__()\n        self.dim = dim\n        perm = torch.randperm(dim)\n        inv_perm = torch.empty_like(perm)\n        inv_perm[perm] = torch.arange(dim)\n        self.register_buffer(\"perm\", perm)\n        self.register_buffer(\"inv_perm\", inv_perm)\n    def forward(self, x):",
+        "detail": "core.net",
+        "documentation": {}
+    },
+    {
+        "label": "InvertibleDimReductionWithPredictor",
+        "kind": 6,
+        "importPath": "core.net",
+        "description": "core.net",
+        "peekOfCode": "class InvertibleDimReductionWithPredictor(nn.Module):\n    \"\"\"\n    IDRP神经网络\n    使用神经网络预测 z_aux,只需存储 z_comp（有损压缩）\n    \"\"\"\n    def __init__(\n        self,\n        input_dim,\n        m_dim,\n        n_layers=6,",
+        "detail": "core.net",
+        "documentation": {}
+    },
+    {
+        "label": "ApCM",
+        "kind": 6,
+        "importPath": "core.net",
+        "description": "core.net",
+        "peekOfCode": "class ApCM(nn.Module):\n    def __init__(\n        self,\n        L,\n        D,\n        m_dim,\n        max_mem,\n        n_layers: int = 4,\n        hidden_dim: int = 256,\n        aux_predictor_hidden: int = 128,",
+        "detail": "core.net",
+        "documentation": {}
+    },
+    {
+        "label": "set_seed",
+        "kind": 2,
+        "importPath": "core.net",
+        "description": "core.net",
+        "peekOfCode": "def set_seed(seed=42):\n    \"\"\"\n    设置所有相关随机种子以确保结果可复现。\n    \"\"\"\n    random.seed(seed)\n    np.random.seed(seed)\n    torch.manual_seed(seed)\n    if torch.cuda.is_available():\n        torch.cuda.manual_seed(seed)\n        torch.cuda.manual_seed_all(seed)  # 如果使用多GPU",
+        "detail": "core.net",
+        "documentation": {}
+    },
+    {
+        "label": "set_seed",
+        "kind": 2,
+        "importPath": "core.vis",
+        "description": "core.vis",
+        "peekOfCode": "def set_seed(seed=42):\n    import random\n    import numpy as np\n    random.seed(seed)\n    np.random.seed(seed)\n    torch.manual_seed(seed)\n    if torch.cuda.is_available():\n        torch.cuda.manual_seed(seed)\n        torch.cuda.manual_seed_all(seed)\ndef load_data(filepath):",
+        "detail": "core.vis",
+        "documentation": {}
+    },
+    {
+        "label": "load_data",
+        "kind": 2,
+        "importPath": "core.vis",
+        "description": "core.vis",
+        "peekOfCode": "def load_data(filepath):\n    \"\"\"\n    加载真实数据（用于测试）\n    \"\"\"\n    images = []\n    with zipfile.ZipFile(filepath, \"r\") as zip_ref:\n        file_list = zip_ref.namelist()\n        for file_name in file_list:\n            if \"png\" in file_name:\n                # 读取图像",
+        "detail": "core.vis",
+        "documentation": {}
+    },
+    {
+        "label": "generate_training_images",
+        "kind": 2,
+        "importPath": "core.vis",
+        "description": "core.vis",
+        "peekOfCode": "def generate_training_images(n=1000, size=(32, 32)):\n    \"\"\"\n    生成模拟训练数据\n    \"\"\"\n    images = []\n    for _ in range(n):\n        # 创建带结构的模拟图像（模拟真实图像的局部相关性）\n        img = torch.zeros(size)\n        # 随机添加3-8个高斯blob，模拟真实图像特征\n        num_blobs = torch.randint(3, 9, (1,)).item()",
+        "detail": "core.vis",
+        "documentation": {}
+    },
+    {
+        "label": "preprocess_images",
+        "kind": 2,
+        "importPath": "core.vis",
+        "description": "core.vis",
+        "peekOfCode": "def preprocess_images(images, target_size=(32, 32), is_flat=False):\n    \"\"\"\n    预处理图像：调整大小、展平、归一化\n    Args:\n        images: 图像列表，每个元素是2D张量或展平的张量\n        target_size: 目标尺寸\n        is_flat: 输入图像是否已经展平\n    \"\"\"\n    processed_images = []\n    for img in images:",
+        "detail": "core.vis",
+        "documentation": {}
+    },
+    {
+        "label": "psnr",
+        "kind": 2,
+        "importPath": "core.vis",
+        "description": "core.vis",
+        "peekOfCode": "def psnr(original, reconstructed):\n    \"\"\"\n    计算峰值信噪比\n    \"\"\"\n    mse = F.mse_loss(original, reconstructed)\n    if mse == 0:\n        return float(\"inf\")\n    max_val = 1.0  # 归一化后的最大值\n    psnr_val = 20 * torch.log10(max_val / torch.sqrt(mse))\n    return psnr_val",
+        "detail": "core.vis",
+        "documentation": {}
+    },
+    {
+        "label": "visualize_comparison",
+        "kind": 2,
+        "importPath": "core.vis",
+        "description": "core.vis",
+        "peekOfCode": "def visualize_comparison(\n    originals,\n    reconstructions,\n    titles=[\"Original\", \"Reconstructed\"],\n    num_samples=4,\n    save_path=None,\n):\n    \"\"\"\n    可视化原始图像和重建图像的对比\n    \"\"\"",
+        "detail": "core.vis",
+        "documentation": {}
+    },
+    {
+        "label": "plot_loss_curves",
+        "kind": 2,
+        "importPath": "core.vis",
+        "description": "core.vis",
+        "peekOfCode": "def plot_loss_curves(train_loss_history, train_recon_loss_history, save_path=None):\n    \"\"\"\n    绘制训练损失曲线\n    Args:\n        train_loss_history: 总损失历史\n        train_recon_loss_history: 重构损失历史\n        save_path: 保存图像路径（可选）\n    \"\"\"\n    plt.figure(figsize=(12, 5))\n    # 绘制总损失",
+        "detail": "core.vis",
+        "documentation": {}
+    },
+    {
+        "label": "set_seed",
+        "kind": 2,
+        "importPath": "core.vis2",
+        "description": "core.vis2",
+        "peekOfCode": "def set_seed(seed=42):\n    import random\n    import numpy as np\n    random.seed(seed)\n    np.random.seed(seed)\n    torch.manual_seed(seed)\n    if torch.cuda.is_available():\n        torch.cuda.manual_seed(seed)\n        torch.cuda.manual_seed_all(seed)\ndef load_data(filepath):",
+        "detail": "core.vis2",
+        "documentation": {}
+    },
+    {
+        "label": "load_data",
+        "kind": 2,
+        "importPath": "core.vis2",
+        "description": "core.vis2",
+        "peekOfCode": "def load_data(filepath):\n    \"\"\"\n    加载真实数据（用于测试）\n    \"\"\"\n    images = []\n    with zipfile.ZipFile(filepath, \"r\") as zip_ref:\n        file_list = zip_ref.namelist()\n        for file_name in file_list:\n            if \"png\" in file_name:\n                # 读取图像",
+        "detail": "core.vis2",
+        "documentation": {}
+    },
+    {
+        "label": "generate_training_images",
+        "kind": 2,
+        "importPath": "core.vis2",
+        "description": "core.vis2",
+        "peekOfCode": "def generate_training_images(n=1000, size=(32, 32)):\n    \"\"\"\n    生成模拟训练数据\n    \"\"\"\n    images = []\n    for _ in range(n):\n        # 创建带结构的模拟图像（模拟真实图像的局部相关性）\n        img = torch.zeros(size)\n        # 随机添加3-8个高斯blob，模拟真实图像特征\n        num_blobs = torch.randint(3, 9, (1,)).item()",
+        "detail": "core.vis2",
+        "documentation": {}
+    },
+    {
+        "label": "preprocess_images",
+        "kind": 2,
+        "importPath": "core.vis2",
+        "description": "core.vis2",
+        "peekOfCode": "def preprocess_images(images, target_size=(32, 32), is_flat=False):\n    \"\"\"\n    预处理图像：调整大小、展平、归一化\n    Args:\n        images: 图像列表，每个元素是2D张量或展平的张量\n        target_size: 目标尺寸\n        is_flat: 输入图像是否已经展平\n    \"\"\"\n    processed_images = []\n    for img in images:",
+        "detail": "core.vis2",
+        "documentation": {}
+    },
+    {
+        "label": "psnr",
+        "kind": 2,
+        "importPath": "core.vis2",
+        "description": "core.vis2",
+        "peekOfCode": "def psnr(original, reconstructed):\n    \"\"\"\n    计算峰值信噪比\n    \"\"\"\n    mse = F.mse_loss(original, reconstructed)\n    if mse == 0:\n        return float(\"inf\")\n    max_val = 1.0  # 归一化后的最大值\n    psnr_val = 20 * torch.log10(max_val / torch.sqrt(mse))\n    return psnr_val",
+        "detail": "core.vis2",
+        "documentation": {}
+    },
+    {
+        "label": "visualize_comparison",
+        "kind": 2,
+        "importPath": "core.vis2",
+        "description": "core.vis2",
+        "peekOfCode": "def visualize_comparison(\n    originals,\n    reconstructions,\n    titles=[\"Original\", \"Reconstructed\"],\n    num_samples=4,\n    save_path=None,\n):\n    \"\"\"\n    可视化原始图像和重建图像的对比\n    \"\"\"",
+        "detail": "core.vis2",
+        "documentation": {}
+    },
+    {
+        "label": "plot_loss_curves",
+        "kind": 2,
+        "importPath": "core.vis2",
+        "description": "core.vis2",
+        "peekOfCode": "def plot_loss_curves(train_loss_history, train_recon_loss_history, save_path=None):\n    \"\"\"\n    绘制训练损失曲线\n    Args:\n        train_loss_history: 总损失历史\n        train_recon_loss_history: 重构损失历史\n        save_path: 保存图像路径（可选）\n    \"\"\"\n    plt.figure(figsize=(12, 5))\n    # 绘制总损失",
+        "detail": "core.vis2",
+        "documentation": {}
+    },
+    {
+        "label": "SwiGLULayer",
+        "kind": 6,
+        "importPath": "exp.net",
+        "description": "exp.net",
+        "peekOfCode": "class SwiGLULayer(nn.Module):\n    def __init__(self, in_dim, out_dim):\n        super().__init__()\n        self.w = nn.Linear(in_dim, 2 * out_dim)\n    def forward(self, x):\n        x = self.w(x)\n        gate, val = x.chunk(2, dim=-1)\n        return F.silu(gate) * val  # silu = swish\nclass InvertibleCouplingLayer(nn.Module):\n    def __init__(self, dim, hidden_dim=None, affine=True):",
+        "detail": "exp.net",
+        "documentation": {}
+    },
+    {
+        "label": "InvertibleCouplingLayer",
+        "kind": 6,
+        "importPath": "exp.net",
+        "description": "exp.net",
+        "peekOfCode": "class InvertibleCouplingLayer(nn.Module):\n    def __init__(self, dim, hidden_dim=None, affine=True):\n        super().__init__()\n        self.affine = affine\n        half_dim = dim // 2\n        if hidden_dim is None:\n            hidden_dim = half_dim * 2\n        out_dim = half_dim * 2 if affine else half_dim\n        self.net = nn.Sequential(\n            SwiGLULayer(half_dim, hidden_dim),",
+        "detail": "exp.net",
+        "documentation": {}
+    },
+    {
+        "label": "PermuteLayer",
+        "kind": 6,
+        "importPath": "exp.net",
+        "description": "exp.net",
+        "peekOfCode": "class PermuteLayer(nn.Module):\n    def __init__(self, dim):\n        super().__init__()\n        self.dim = dim\n        perm = torch.randperm(dim)\n        inv_perm = torch.empty_like(perm)\n        inv_perm[perm] = torch.arange(dim)\n        self.register_buffer(\"perm\", perm)\n        self.register_buffer(\"inv_perm\", inv_perm)\n    def forward(self, x):",
+        "detail": "exp.net",
+        "documentation": {}
+    },
+    {
+        "label": "InvertibleDimReductionWithPredictor",
+        "kind": 6,
+        "importPath": "exp.net",
+        "description": "exp.net",
+        "peekOfCode": "class InvertibleDimReductionWithPredictor(nn.Module):\n    \"\"\"\n    IDRP神经网络\n    使用神经网络预测 z_aux,只需存储 z_comp（有损压缩）\n    \"\"\"\n    def __init__(\n        self,\n        input_dim,\n        m_dim,\n        n_layers=6,",
+        "detail": "exp.net",
+        "documentation": {}
+    },
+    {
+        "label": "MemoryTransit",
+        "kind": 6,
+        "importPath": "exp.net",
+        "description": "exp.net",
+        "peekOfCode": "class MemoryTransit(nn.Module):\n    def __init__(\n        self,\n        L,\n        D,\n        m_dim,\n        max_mem,\n        n_layers: int = 4,\n        hidden_dim: int = 256,\n        aux_predictor_hidden: int = 128,",
+        "detail": "exp.net",
+        "documentation": {}
+    },
+    {
+        "label": "set_seed",
+        "kind": 2,
+        "importPath": "exp.net",
+        "description": "exp.net",
+        "peekOfCode": "def set_seed(seed=42):\n    \"\"\"\n    设置所有相关随机种子以确保结果可复现。\n    \"\"\"\n    random.seed(seed)\n    np.random.seed(seed)\n    torch.manual_seed(seed)\n    if torch.cuda.is_available():\n        torch.cuda.manual_seed(seed)\n        torch.cuda.manual_seed_all(seed)  # 如果使用多GPU",
+        "detail": "exp.net",
+        "documentation": {}
+    },
+    {
+        "label": "PCACompressor",
+        "kind": 6,
+        "importPath": "exp.pac",
+        "description": "exp.pac",
+        "peekOfCode": "class PCACompressor:\n    def __init__(self, n_components: int):\n        \"\"\"\n        Args:\n            n_components (int): 压缩后的维度 m_dim\n        \"\"\"\n        self.n_components = n_components\n        self.pca = PCA(n_components=n_components)\n        self.is_fitted = False\n    def fit(self, X: torch.Tensor):",
+        "detail": "exp.pac",
+        "documentation": {}
+    },
+    {
+        "label": "set_seed",
+        "kind": 2,
+        "importPath": "exp.pac_vis",
+        "description": "exp.pac_vis",
+        "peekOfCode": "def set_seed(seed=42):\n    import random\n    random.seed(seed)\n    np.random.seed(seed)\n    torch.manual_seed(seed)\ndef load_data(filepath):\n    \"\"\"加载真实数据（用于测试）\"\"\"\n    images = []\n    with zipfile.ZipFile(filepath, \"r\") as zip_ref:\n        file_list = zip_ref.namelist()",
+        "detail": "exp.pac_vis",
+        "documentation": {}
+    },
+    {
+        "label": "load_data",
+        "kind": 2,
+        "importPath": "exp.pac_vis",
+        "description": "exp.pac_vis",
+        "peekOfCode": "def load_data(filepath):\n    \"\"\"加载真实数据（用于测试）\"\"\"\n    images = []\n    with zipfile.ZipFile(filepath, \"r\") as zip_ref:\n        file_list = zip_ref.namelist()\n        for file_name in file_list:\n            if \"png\" in file_name:\n                img = Image.open(BytesIO(zip_ref.read(file_name)))\n                img = img.convert(\"L\")\n                img_tensor = torch.tensor(np.array(img), dtype=torch.float32)",
+        "detail": "exp.pac_vis",
+        "documentation": {}
+    },
+    {
+        "label": "generate_training_images",
+        "kind": 2,
+        "importPath": "exp.pac_vis",
+        "description": "exp.pac_vis",
+        "peekOfCode": "def generate_training_images(n=1000, size=(32, 32)):\n    \"\"\"生成模拟训练数据（与 vis.py 完全一致）\"\"\"\n    images = []\n    for _ in range(n):\n        img = torch.zeros(size)\n        num_blobs = torch.randint(3, 9, (1,)).item()\n        for _ in range(num_blobs):\n            cx = torch.randint(5, size[0] - 5, (1,)).item()\n            cy = torch.randint(5, size[1] - 5, (1,)).item()\n            x, y = torch.meshgrid(torch.arange(size[0]), torch.arange(size[1]))",
+        "detail": "exp.pac_vis",
+        "documentation": {}
+    },
+    {
+        "label": "preprocess_images",
+        "kind": 2,
+        "importPath": "exp.pac_vis",
+        "description": "exp.pac_vis",
+        "peekOfCode": "def preprocess_images(images, target_size=(32, 32), is_flat=False):\n    \"\"\"预处理图像（与 vis.py 完全一致）\"\"\"\n    processed_images = []\n    for img in images:\n        if is_flat:\n            img_2d = img.view(target_size)\n            img_pil = Image.fromarray((img_2d.numpy() * 255).astype(np.uint8), mode=\"L\")\n        else:\n            img_pil = Image.fromarray((img.numpy() * 255).astype(np.uint8), mode=\"L\")\n        if img_pil.size != target_size:",
+        "detail": "exp.pac_vis",
+        "documentation": {}
+    },
+    {
+        "label": "psnr",
+        "kind": 2,
+        "importPath": "exp.pac_vis",
+        "description": "exp.pac_vis",
+        "peekOfCode": "def psnr(original, reconstructed):\n    \"\"\"计算峰值信噪比（与 vis.py 完全一致）\"\"\"\n    mse = F.mse_loss(original, reconstructed)\n    if mse == 0:\n        return float(\"inf\")\n    max_val = 1.0\n    psnr_val = 20 * torch.log10(max_val / torch.sqrt(mse))\n    return psnr_val\ndef visualize_comparison(\n    originals,",
+        "detail": "exp.pac_vis",
+        "documentation": {}
+    },
+    {
+        "label": "visualize_comparison",
+        "kind": 2,
+        "importPath": "exp.pac_vis",
+        "description": "exp.pac_vis",
+        "peekOfCode": "def visualize_comparison(\n    originals,\n    reconstructions,\n    titles=[\"Original\", \"Reconstructed\"],\n    num_samples=4,\n    save_path=None,\n):\n    \"\"\"可视化对比（与 vis.py 完全一致）\"\"\"\n    fig, axes = plt.subplots(2, num_samples, figsize=(12, 6))\n    for i in range(min(num_samples, len(originals))):",
+        "detail": "exp.pac_vis",
+        "documentation": {}
+    },
+    {
+        "label": "set_seed",
+        "kind": 2,
+        "importPath": "exp.pac_vis2",
+        "description": "exp.pac_vis2",
+        "peekOfCode": "def set_seed(seed=42):\n    import random\n    random.seed(seed)\n    np.random.seed(seed)\n    torch.manual_seed(seed)\ndef load_data(filepath):\n    \"\"\"加载真实数据（用于测试）\"\"\"\n    images = []\n    with zipfile.ZipFile(filepath, \"r\") as zip_ref:\n        file_list = zip_ref.namelist()",
+        "detail": "exp.pac_vis2",
+        "documentation": {}
+    },
+    {
+        "label": "load_data",
+        "kind": 2,
+        "importPath": "exp.pac_vis2",
+        "description": "exp.pac_vis2",
+        "peekOfCode": "def load_data(filepath):\n    \"\"\"加载真实数据（用于测试）\"\"\"\n    images = []\n    with zipfile.ZipFile(filepath, \"r\") as zip_ref:\n        file_list = zip_ref.namelist()\n        for file_name in file_list:\n            if \"png\" in file_name:\n                img = Image.open(BytesIO(zip_ref.read(file_name)))\n                img = img.convert(\"L\")\n                img_tensor = torch.tensor(np.array(img), dtype=torch.float32)",
+        "detail": "exp.pac_vis2",
+        "documentation": {}
+    },
+    {
+        "label": "generate_training_images",
+        "kind": 2,
+        "importPath": "exp.pac_vis2",
+        "description": "exp.pac_vis2",
+        "peekOfCode": "def generate_training_images(n=1000, size=(32, 32)):\n    \"\"\"生成模拟训练数据（与 vis.py 完全一致）\"\"\"\n    images = []\n    for _ in range(n):\n        img = torch.zeros(size)\n        num_blobs = torch.randint(3, 9, (1,)).item()\n        for _ in range(num_blobs):\n            cx = torch.randint(5, size[0] - 5, (1,)).item()\n            cy = torch.randint(5, size[1] - 5, (1,)).item()\n            x, y = torch.meshgrid(torch.arange(size[0]), torch.arange(size[1]))",
+        "detail": "exp.pac_vis2",
+        "documentation": {}
+    },
+    {
+        "label": "preprocess_images",
+        "kind": 2,
+        "importPath": "exp.pac_vis2",
+        "description": "exp.pac_vis2",
+        "peekOfCode": "def preprocess_images(images, target_size=(32, 32), is_flat=False):\n    \"\"\"预处理图像（与 vis.py 完全一致）\"\"\"\n    processed_images = []\n    for img in images:\n        if is_flat:\n            img_2d = img.view(target_size)\n            img_pil = Image.fromarray((img_2d.numpy() * 255).astype(np.uint8), mode=\"L\")\n        else:\n            img_pil = Image.fromarray((img.numpy() * 255).astype(np.uint8), mode=\"L\")\n        if img_pil.size != target_size:",
+        "detail": "exp.pac_vis2",
+        "documentation": {}
+    },
+    {
+        "label": "psnr",
+        "kind": 2,
+        "importPath": "exp.pac_vis2",
+        "description": "exp.pac_vis2",
+        "peekOfCode": "def psnr(original, reconstructed):\n    \"\"\"计算峰值信噪比（与 vis.py 完全一致）\"\"\"\n    mse = F.mse_loss(original, reconstructed)\n    if mse == 0:\n        return float(\"inf\")\n    max_val = 1.0\n    psnr_val = 20 * torch.log10(max_val / torch.sqrt(mse))\n    return psnr_val\ndef visualize_comparison(\n    originals,",
+        "detail": "exp.pac_vis2",
+        "documentation": {}
+    },
+    {
+        "label": "visualize_comparison",
+        "kind": 2,
+        "importPath": "exp.pac_vis2",
+        "description": "exp.pac_vis2",
+        "peekOfCode": "def visualize_comparison(\n    originals,\n    reconstructions,\n    titles=[\"Original\", \"Reconstructed\"],\n    num_samples=4,\n    save_path=None,\n):\n    \"\"\"可视化对比（与 vis.py 完全一致）\"\"\"\n    fig, axes = plt.subplots(2, num_samples, figsize=(12, 6))\n    for i in range(min(num_samples, len(originals))):",
+        "detail": "exp.pac_vis2",
+        "documentation": {}
+    }
+]
